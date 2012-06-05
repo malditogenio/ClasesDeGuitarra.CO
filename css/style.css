@@ -14,10 +14,15 @@ body {
 	font-size:14px;
 }
 
+img{
+	border:0;
+}
 footer {
 	margin: auto;
 	max-width:899px;
+	padding-bottom: 20px;
 }
+
 
 footer article {
 	width:30%;
@@ -201,7 +206,7 @@ nav ul li a:hover{
 	vertical-align: top;
 	background: #333;
 	float: right;
-	height:415.9px;
+	height:416px;
 	padding:0;
 	width:304px;
 }
@@ -305,8 +310,10 @@ nav ul li a:hover{
 }
 
 #slideshow{
+	background:#FFF;
+	height:179px;
 	width:591px;
-	height:177px;
+	
 }
 
 #social1, #social2, #social3, #social4, #socialhead1, #socialhead2, #socialhead3 {
@@ -372,6 +379,10 @@ display: inline-block;
 
 
 /*Clases*/
+
+.linkrojo{
+	color:#EF4135;
+}
 
 .rojo{
 	color:#EF4135;
