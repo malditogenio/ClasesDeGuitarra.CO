@@ -190,7 +190,7 @@ nav ul li a:hover{
 #contenedorsecundario {
 	display: inline-block;
 	width:899px;
-	padding:0;
+	padding:0 0 0 0 ;
 	vertical-align: top;
 }
 
@@ -315,14 +315,28 @@ nav ul li a:hover{
 }
 
 #post{
+	font-size:15px;
 	margin: 1em 2em;
 	display: inline-block;
 }
 
-#post h1{
-	padding-bottom: 1em;
+#post a{
+	color:#EF4135;
+	font-weight:bold;
 }
 
+#post h1{
+	padding-bottom: 0.8em;
+}
+
+#post h2{
+	color:#000;
+	padding: 1em 0 1em 0;
+	font-family: Georgia;
+	font-size:18px;
+	font-style: italic;
+	font-weight:lighter;
+}
 #post p{
 	padding-bottom: 1em;
 }
