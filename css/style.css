@@ -339,6 +339,7 @@ nav ul li a:hover{
 }
 #post p{
 	padding-bottom: 1em;
+	line-height: 1.5em;
 }
 
 
@@ -356,6 +357,11 @@ nav ul li a:hover{
 	height:179px;
 	width:591px;
 	
+}
+
+
+#politics {
+	padding: 1em 0;
 }
 
 #social1, #social2, #social3, #social4, #socialhead1, #socialhead2, #socialhead3 {
