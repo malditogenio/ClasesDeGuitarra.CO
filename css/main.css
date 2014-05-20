@@ -1,0 +1,794 @@
+/*----------------------------------------------------------------------------------------------------
+
+	Theme Name:     ClasesDeGuitarra
+	Description:    Project Clases De Guitarra
+	Author:         Andres Ospina
+	Author URI:     http://www.zenmonsters.com
+	Version:        3.2
+
+----------------------------------------------------------------------------------------------------*/
+*{
+	webkit-transition: 	ease-out .3s;
+	-moz-transition: 	ease-out .3s;
+	-o-transition:  	ease-out .3s;
+		transition:  	ease-out .3s;
+}
+
+html{
+	height:100%;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+body{
+	font-family: "Myriad pro", Sans-serif;
+	font-size: 16px;
+	background: #fff;
+	margin: 0;
+}
+
+
+footer{
+	background-image: -o-linear-gradient(-90deg, #262626 0%, #000000 100%);
+	background-image: -moz-linear-gradient(-90deg, #262626 0%, #000000 100%);
+	background-image: -webkit-linear-gradient(-90deg, #262626 0%, #000000 100%);
+	background-image: -ms-linear-gradient(-90deg, #262626 0%, #000000 100%);
+	background-image: linear-gradient(-180deg, #262626 0%, #000000 100%);
+	-moz-box-shadow:    0px -3px 4px 0px rgba(0,0,0,0.31);
+	-webkit-box-shadow: 0px -3px 4px 0px rgba(0,0,0,0.31);
+	box-shadow:         0px -3px 4px 0px rgba(0,0,0,0.31);
+	color: #D8D8D8;
+	font-size: 12px;
+	height: 161px;
+	padding: 4em 0 2em 0;
+
+}
+
+footer a{
+	color: #D8D8D8;
+	text-decoration: underline !important;
+}
+
+footer #acerca-de-clases{
+	float: left;
+	width: 32%;
+	position: relative;
+	left: 14em;
+	display: inline-block;
+}
+
+footer #acerca-de-clases img{
+	display: inline-block;
+	position: absolute;
+	margin-left: -11em;
+}
+
+
+footer #datos-de-contacto{
+	float: right;
+	text-align: right;
+
+}
+footer #datos-de-contacto ul:first-child{
+	position: relative;
+	right: -1.7em;
+	vertical-align: baseline;
+}
+
+
+footer .boton-de-llamado-final{
+	display: none;
+}
+
+footer .facebook-especial{
+	position: relative !important;
+	top: -4px !important;
+}
+
+footer #datos-de-contacto ul li{
+	display: inline-block;
+	padding-left: 1em;
+}
+
+footer #datos-de-contacto p{
+	font-size: 10px;
+}
+
+h1{
+	margin: 0;
+	float: left;
+}
+
+h1 img{
+	margin-top: 14px;
+}
+
+
+h2{
+	text-transform: uppercase;
+	font-size: 2.5609756097561em;
+	color: #EBEBEB;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 3.5em;
+	/* position: relative; */
+	line-height: 1.02em;
+}
+
+h3{
+	font-size: 36px;
+	font-weight: 600;
+	color: #131313;
+	letter-spacing: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: .35em;
+	left: -.1em;
+}
+
+h4{
+	font-size: 22px;
+	color: #000000;
+	font-weight: 300;
+	text-align: center;
+	line-height: 19px;
+	margin-top: 1.8em;
+}
+
+
+header{
+	background: #FFFFFF;
+	-moz-box-shadow:    0px 2px 6px 0px rgba(0,0,0,0.31);
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.31);
+	box-shadow:         0px 2px 6px 0px rgba(0,0,0,0.31);
+	height: 6.59em;
+	z-index: 2;
+	position: fixed;
+	margin: 0;
+	width: 100%;
+}
+
+
+
+header nav ul {
+	float: right;
+	line-height: 5em;
+
+}
+
+header nav ul li{
+	display: inline-block;
+	letter-spacing:-.77px;
+	font-size: 1.09756098em;
+	padding-left: 39px;
+
+}
+
+header nav ul li span{
+	font-weight: bold;
+
+}
+
+#alumnos{
+	background: url(../img/bg-alumnos.jpg) fixed center 0 no-repeat;
+	background-size: cover;
+	height: 613px;
+	padding-top: .2em;
+}
+
+#alumnos aside{
+	margin-top: -40px;
+}
+
+#alumnos h3{
+	color: #EBEBEB;
+}
+
+
+#beneficios{
+	background: url(../img/bg-beneficios.jpg);
+	background-repeat: repeat;
+	margin-top: 3.8em;
+	padding: 2.2em 0;
+	height: 100%;
+}
+
+#beneficios ul{
+margin-left: -.7em;
+}
+
+#beneficios ul li{
+	display: inline-block;
+	width: 17.8%;
+	text-align: center;
+	padding-right: 4.3em;
+
+}
+
+#beneficios ul li:last-child{
+	padding-right: 0;
+	margin-left: 4px;
+}
+
+
+#guest{
+	border: 6px solid #F6E53F;
+}
+
+#guitar-hero{
+	background: #131313;
+	max-height: 12.6em;
+}
+
+#guitar-hero aside{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#guitar-hero aside div {
+	display: inline-block;
+	float: left;
+	padding: 2em 0;
+	width: 25%;
+}
+
+#guitar-hero aside div img{
+	max-width: 36%;
+}
+
+#formulario{
+	background: url(../img/background-presentacion.jpg) fixed top no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 4em 0;
+}
+
+#formulario h3{
+	color:#EBEBEB;
+}
+
+#formulario-landing{
+	margin: 0 auto;
+	width: 43.5%;
+}
+#formulario-landing form{
+
+}
+
+#play{
+	text-align: center;
+	visibility:hidden;
+
+}
+
+.calltoaction-form input {
+	display: block;
+	width: 403px;
+	padding: 2px 0;
+	text-indent: 6%;
+	height: 42px;
+	border: 1px solid #ccc;
+}
+
+.call-final {
+	background: rgba(0,0,0,.5);
+	font-size: 1.3em;
+	color: #F6E53F;
+	line-height: 28px;
+	padding: .65em .5em .5em .5em;
+	display: inline;
+	margin: 1em auto;
+	text-transform: uppercase;
+	width: 405px;
+	position: relative;
+	font-weight: 600;
+	border-radius: .25em;
+	border: 1px solid #F6E53F;
+	letter-spacing: 6px;
+}
+
+.call-final:hover{
+	background:#F6E53F;
+	color: #000;
+	border-bottom: 4px solid #797008;
+}
+
+
+#presentacion{
+	background: url(../img/bg-angus.jpg) fixed top no-repeat;
+	background-size: cover;
+	height: 115%;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+
+	min-height: 38.1em;
+}
+
+#presentacion-angus{
+	background: url(../img/bg-angus.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+#presentacion-hendrix{
+	background: url(../img/bg-hendrix.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+#presentacion-hendrix-2{
+	background: url(../img/bg-hendrix2.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+#presentacion-muse{
+	background: url(../img/bg-muse.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+
+#presentacion-slash{
+	background: url(../img/bg-slash2.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+#presentacion-page{
+	background: url(../img/bg-page.jpg);
+	background-size: cover;
+	height: 537px;
+	position: relative;
+	z-index: 0;
+	top: 6em;
+}
+
+
+#presentacion img{
+	top: 9em;
+	position: relative;
+}
+
+.alumno {
+	background: #EBEBEB;
+	width: 309px;
+	height: 100px;
+	font-size: 13px;
+	border-radius: 6px;
+	padding: 23px 26px 0;
+	line-height: 13px;
+	display: inline-table;
+	vertical-align: middle;
+	margin: 58px;
+}
+
+.alumno div{
+	color: #D8D8D8;
+	margin:44px 0 0 35px;
+	position: absolute;
+	font-style: italic;
+	display: block;
+}
+
+.alumno div span{
+	font-weight: 600;
+}
+
+.alumno img{
+	border-radius: 100%;
+	position: absolute;
+	border: 6px solid #EBEBEB;
+	margin: -25px 0 0 -77px;
+}
+
+.alumno p{
+	margin-left: 16px;
+}
+
+.alumno .primer-alumno{
+	margin:33px 0 0 35px;
+}
+
+.boton-contacto, .boton-contacto:hover, .call-to-action, .call-to-action:hover, .call-final, .call-final:hover {
+	webkit-transition: 	ease-out .3s;
+	-moz-transition: 	ease-out .3s;
+	-o-transition:  	ease-out .3s;
+		transition:  	ease-out .3s;
+}
+
+.boton-contacto{
+	color: #30BEDA;
+	border: 2px solid #30BEDA;
+	padding: 14px 18px;
+	line-height: 39px;
+	margin-left: -19px;
+	text-decoration: none;
+}
+
+.boton-contacto:hover{
+	background: #30BEDA;
+	color: #fff;
+}
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.call-to-action{
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 300;
+	padding: 15px 1.2em 10px;
+	text-align: center;
+	margin: 10px auto 30px auto;
+	display: block;
+	max-width: 200px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: .2em;
+	background: #73A500;
+	color: #fff;
+	border-bottom: 4px solid #446102;
+
+}
+
+
+.call-to-action:hover{
+	background: #84BD00;
+	border-bottom: 4px solid #648F00;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.especial{
+	background: #F6E53F;
+	font-size: 22px;
+	line-height: 18px;
+}
+
+.especial div{
+	font-size: 13px;
+	line-height: 14px;
+	margin-top: 30px
+}
+
+.iconito{
+	background: url(../img/iconos.png);
+	width: 72px;
+	height: 72px;
+	overflow: hidden;
+	position: relative;
+	background-repeat: no-repeat;
+	left: 2.9em;
+	top: 1.4em;
+}
+
+.hero{
+	display: inline-block;
+}
+
+.hour{
+	 background-position:-78px 0;
+	 left: 3em;
+}
+
+.domi{
+	background-position:-232px 0;
+	left: 3em;
+}
+
+.profes{
+	background-position:-155px 0;
+	margin-left: -0.1em;
+}
+
+label title{
+position: absolute;
+background: #00b941;
+color: #fff;
+left: 0;
+top: 100%;
+font-size: 12px;
+z-index: 2;
+padding: 2px;
+}
+
+
+/* --------------------------------------------------
+	:: Mobile
+	-------------------------------------------------- */
+
+	/* =Tablet screens (portrait  mode)*/
+	@media only screen and (max-width: 959px) {
+
+		h1 {
+			text-align: center;
+			margin: 0 auto;
+			float: none;
+			}
+
+		h1 img{
+			margin: 14px 0 0 9px;
+		}
+
+		h2 {
+			top: .6em;
+			font-size: 2.05em;
+		}
+
+		h3{
+			font-size: 1.8em;
+		}
+
+
+		header nav ul li{
+			display: none;
+		}
+
+		footer #datos-de-contacto {
+			margin-right: 2em;
+		}
+
+		#alumnos{
+			height: 540px;
+		}
+
+		#alumnos aside {
+			margin: -40px 0 0 62px;
+		}
+
+		#beneficios ul {
+			margin-left: 1.3em;
+		}
+
+		#beneficios ul li{
+			display: inline-block;
+			width: 22%;
+			text-align: center;
+			padding-right: 11px !important;
+		}
+
+
+		#presentacion{
+			max-width:959px;
+			min-height: 325px !important;
+		
+			background: url(../img/bg-angus.jpg)100% 100% no-repeat;
+}
+
+		#presentacion-slash{
+			max-width:959px;
+			height: 325px;
+		}
+
+
+		.alumno{
+			width: 286px;
+			height: 96px;
+			padding: 16px 20px 0 1em;
+			margin: 38px;
+		}
+
+
+		.call-to-action{
+			left: 0em;
+			top: 0.2em;
+			padding: .4em .1em;
+		}
+
+		.domi, .hour, .iconito, .profes{
+			left: 3.6em !important;
+		}
+
+		.especial{
+			margin: 27px !important;
+		}
+
+	}
+
+	/* TABLETS Vertical )*/
+	@media only screen and (max-width: 854px) {	
+		footer #acerca-de-clases{
+			width: 22%;
+		}
+		
+		footer #acerca-de-clases p{
+			display: none;
+		}
+
+		footer #datos-de-contacto p {
+			font-size: .8em;
+		}
+
+		footer #acerca-de-clases img {
+			margin-left: 8.4em;
+		}
+
+		footer #datos-de-contacto p {
+			font-size: 1em;
+			text-align: center;
+			left: -6.5em;
+			position: relative;
+		}
+
+
+		#formulario-landing{
+			position: relative;
+			left: -.5em;
+		}
+
+		.alumno {
+			width: 250px;
+			height: 96px;
+			padding: 7px 14px 0 1em;
+			margin: 5% 5% 7% 5%;
+		}
+
+		.calltoaction-form {
+			display: inline-block;
+			margin: 0 0 0 -51px;
+		}
+
+		.call-final {
+			left: -2.5em;
+		}
+
+		.domi, .hour, .iconito, .profes{
+			left: 2.8em !important;
+		}
+
+	}
+
+
+	/* CELUS */
+	@media only screen and (max-width: 758px) {
+		address, footer #acerca-de-clases img, footer #datos-de-contacto p, footer #datos-del-foot, #alumnos aside article:first-child, .alumno div, .especial{
+			display: none !important;
+		}
+
+		h2 {
+			top: .5em;
+			font-size: 1.7em;
+			line-height: .9em;
+		}
+
+		h3 {
+			top: .35em;
+			left: .2em;
+			letter-spacing: 2px;
+			font-size: 1.4em;
+		}
+
+
+
+		h4{
+			font-size: 1.2em;
+			text-align: center;
+			line-height: 15px;
+			margin: 1.7em 1em 0em 1.5em;
+		}
+
+
+		footer .boton-de-llamado-final {
+			background: transparent;
+			border: 2px solid;
+			color: #30BEDA;
+			display: inline;
+			padding: 1em;
+			text-transform: uppercase;
+			top: 1em;
+			left: -.5em;
+			text-decoration: none !important;
+			position: relative;
+		}
+
+		footer .boton-de-llamado-final:hover{
+			background: #30BEDA;
+			color: #fff;
+		}
+
+		footer #datos-de-contacto {
+			margin: 0;
+			text-align: center;
+			font-size: 1.3em;
+		}
+	
+		footer #datos-de-contacto ul:first-child{
+			right: 2.3em;
+		}
+
+		footer #datos-de-contacto ul:nth-child(2){
+			color: #30BEDA;
+		}
+
+		#alumnos {
+			height: 100%;
+			background: url(../img/bg-alumnos.jpg) 100% 100% no-repeat;
+		}
+
+		#alumnos aside {
+			margin: -2em 0 0 1em;
+			padding: 0 0 3em 0;
+		}
+
+		#beneficios ul {
+			margin: -1em 0 0 -3em;
+		}
+
+		#beneficios ul li {
+			display: inline-block;
+			width: 49%;
+			padding: 0 !important;
+		}
+		
+		.domi, .hour, .iconito, .profes {
+			left: .4em !important;
+			display: block;
+			margin: 0 auto;
+		}
+
+		#beneficios ul li:last-child{
+			margin-left: 0px !important;
+		}
+		
+		.alumno {
+			padding: 1.3em;
+			margin: 3em 0 4.5em 1.3em;
+			width: 75%;
+		}
+
+		.alumno img {
+			display: inline-block;
+			margin: -1em auto;
+		}
+
+		.alumno p{
+			font-size: 1.4em;
+			line-height: 1.2em;
+		}
+
+		.boton-contacto{
+			padding: 9px 9px;
+		}
+
+
+		.calltoaction-form input{
+			width: 16.2em !important;
+		}
+		.call-final{
+			width: 12.5em !important;
+		}
+
+		#formulario{
+			background: url(../img/background-presentacion.jpg) 100% 100% no-repeat;
+			padding: 1em 0;
+		}
+
+	}

@@ -1,0 +1,8 @@
+*** Woo-Framework Changelog ***
+	
+2013.03.08 - version 1.0.1
+ * style.css - Fixed testimonials image styling bug
+ 			 - Fixed Dojo tab styling
+
+2013.02.20 - version 1.0.0
+ * First release!

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html "es_ES">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1" />
+    
+
+    <!-- ALGUNOS DETALLES SEO -->
+    <meta property="og:description" content="Aprende a tocar guitarra desde hoy.  Clases de guitarra a domicilio, horarios flexibles y paso a paso ¡Empieza Ahora!" />
+    <meta property="og:image" content="http://clasesdeguitarra.co/img/banner-social-clases-de-guitarra.jpg" />
+    <meta name="google-site-verification" content="6AAzPoCRLDW4RhC0G8nPzJy8Pi2YeS-ItIBzdthMqqE" />
+	<title>ClasesDeGuitarra.CO: Clases de Guitarra a domicilio</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="author" href="https://plus.google.com/+AndresOspinaCO/posts"/>
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<!-- FIN ALGUNOS DETALLES SEO -->
+
+	
+	<!-- LIBRERIAS JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script src="js/animatescroll.js"/> <!-- Esta no me tiene muy convensido porque tiene un pequeño error en Chrome al dar el clic en el enlace -->
+	<!-- FIN LIBRERIAS JS -->
+
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1017570771;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+		</script>
+		
+	<!-- INICIO ANALYTICS -->
+	<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30234242-1']);
+		  _gaq.push(['_setDomainName', 'clasesdeguitarra.co']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+	</script>
+	<!-- FIN ANALYTICS -->
+
+
+	<!-- INICIO SOCIAL MEDIA SCRITPS -->
+	<!-- GOOGLE PLUS +1 -->
+			<script type="text/javascript">
+				  window.___gcfg = {lang: 'es-419'};
+
+				  (function() {
+				    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				    po.src = 'https://apis.google.com/js/plusone.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+				  })();
+			</script>
+	<!-- FIN GOOGLE PLUS +1 -->
+
+	<!-- TWITTER TWEET -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		</script>
+	<!-- FIN TWITTER TWEET -->
+
+	<!-- FACEBOOK LIKE -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+	<!-- FIN FACEBOOK LIKE -->
+	<!-- FIN SOCIAL MEDIA SCRITPS -->
+
+</head>
+<body>
+<header>
+	<div class="contenedor">
+		<h1><img src="img/clases-de-guitarra.png" alt="clases de guitarra"></h1>
+		<nav>
+			<ul>
+				<li><a href="#" onclick="$('#beneficios').animatescroll({scrollSpeed:2000,easing:'easeInOutQuad', padding:60})">¿Cómo funciona?</a></li>
+				<li><a href="#" onclick="$('#alumnos').animatescroll({scrollSpeed:2000,easing:'easeInOutQuad',padding:90})">Alumnos</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="http://clasesdeguitarra.co/blog"><span>Blog</span></a></li>
+				<li><a href="#" class="boton-contacto" onclick="$('#formulario').animatescroll({scrollSpeed:2000,easing:'easeInOutQuad',padding:90})">Contáctanos</a></li>	
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section id="presentacion">
+	<div class="contenedor">
+		<div id="play">
+			<img src="img/play.svg" alt="play clases de guitarra">
+		</div>
+		<h2>El mundo es tuyo<br/> cuando tocas guitarra</h2>
+		<a class="call-to-action" href="#formulario"onclick="$('#formulario').animatescroll({scrollSpeed:2000,easing:'easeInOutQuad',padding:90})">¡Empieza Ahora!</a> 
+	</div>
+</section>
+
+<div class="clear"></div>
+
+<section id="beneficios">
+	<div class="contenedor">
+		<h3>Paso a paso</h3>
+			<ul>
+				<li>
+					<div class="iconito"></div>
+					<h4>Lecciones<br/> personalizadas</h4>
+				</li>
+				
+				<li>
+					<div class="iconito hour"></div>
+					<h4>Horarios<br/> flexibles</h4>
+				</li>
+
+				<li>
+					<div class="iconito domi"></div>
+					<h4>Clases a<br/> domicilio</h4>
+				</li>
+
+				<li>
+					<div class="iconito profes"></div>
+					<h4>Excelentes<br/> profesores</h4>
+				</li>
+			</ul>
+	</div>		
+</section>
+<div class="clear"></div>
+
+
+<section id="guitar-hero">
+	<div class="contenedor">
+		<aside>
+			<div><img src="img/blue-hero.svg" alt="Guitar Hero Boton Azul"></div>
+			<div><img src="img/yellow-hero.svg" alt="Guitar Hero Boton Azul"></div>
+			<div><img src="img/red-hero.svg" alt="Guitar Hero Boton Azul"></div>
+			<div><img src="img/green-hero.svg" alt="Guitar Hero Boton Azul"></div>
+		</side>
+	</div>
+</section>
+
+<section id="alumnos">
+	<div class="contenedor">
+		<h3>Dicen de nosotros</h3>
+			
+		<aside>
+			<article class="alumno">
+				<p>Definitivamente en ClasesDeGuitarra.CO saben cómo nutrirte el alma: A mí que tanto le fastidia la academia por fin pude entender sin lineamentos ni recortes la exploración y el deleite de este bellísimo instrumento.</p>
+				<img src="img/paula-cho.jpg" alt="Paula Cho Clases De Guitarra"/>	
+				<div class="primer-alumno"><span>Paula Cho</span><br/> Vocalista Florencia Park</div>
+			</article>
+
+
+			<article class="alumno">
+				<p>Aquí encontré los mejores maestros de guitarra que conozco, no solo por su forma de tocar, sino también por sus métodos 'cero' tradicionales.</p>
+				<img src="img/diego-abril.jpg" alt="Diego Abril Stayway Clases De Guitarra"/>
+				<div><span>Diego Abril</span><br/> Vocalista y guitarrista Stayway</div>
+			</article>
+
+		
+
+			<article class="alumno">
+				<p>Me sirvió para conseguir una ejecución mas limpia y enfocada totalmente en la practica mas allá de la teoría!</p>
+				<img src="img/oscar-barreto.jpg" alt="Oscar Barreto Clases De Guitarra"/>
+				<div><span>Oscar Barreto</span><br/> Diseñador Lucetti Mackenzie</div>	
+			</article>
+
+
+			<article class="alumno especial">
+				<p>La música es un nexo entre el hombre y el cosmos.</p>
+				<img src="img/pitagoras.jpg" alt="Frases de Pitagoras" id="guest"/>	
+				<div><span>Pitagoras</span><br/> Filósofo griego</div>	
+			</article>
+		</aside>
+	</div>	
+</section>
+
+<section id="formulario">
+	<div class="contenedor">
+
+		<h3>¡Empieza Ahora!</h3>
+		<!-- Formulario -->
+			<div id="formulario-landing">
+				<form class="validate" id="mc-embedded-subscribe-form" action="http://andresospina.us2.list-manage1.com/subscribe/post?u=e78c569d92057db8ce6063fdf&amp;id=d00f2d5ef7" method="post" name="mc-embedded-subscribe-form" target="_blank">
+
+				<div class="calltoaction-form"><label for="mce-FNAME"></label> <input id="mce-FNAME" type="text" name="FNAME" placeholder="Nombre" required="required" value="" /></div>
+
+
+				<div class="calltoaction-form"><label for="mce-EMAIL"></label> <input class="required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Email" required="required" value="" /></div>
+			
+				<div class="clear" id="mce-responses"></div>
+
+				<div class="calltoaction-form"><label for="mce-PHONE"></label> <input id="mce-PHONE" type="text" name="PHONE" placeholder="Teléfono ó móvil" required="required" value="" /></div>
+
+				<div class="calltoaction-form"><label for="CITY"></label> <input id="CITY" type="text" name="CITY" placeholder="Ciudad" required="required" value="" /></div>
+
+				<div class="clear"><input class="call-final" id="mc-embedded-subscribe" type="submit" name="subscribe" value="¡Enviar!" /></div>
+			</form>
+		</div>
+	</div>		
+</section>
+
+<footer>
+	<div class="contenedor">
+		<aside id="acerca-de-clases">
+			<div>
+				<img src="img/logo-clases-de-guitarra-footer.png">
+				<p><b>ClasesDeGuitarra.CO</b> es una plataforma que te permitirá aprender a tocar guitarra en el lugar que mas te inspira de forma personalizada y a tu propio ritmo. Aquí aprenderás con la música que te gusta sin lineamientos teóricos innecesarios. Únete y disfruta de lecciones de guitarra a tu medida.</p>
+
+			</div>
+		</aside>
+		
+		<aside id="datos-de-contacto">
+			<ul>
+				<li class="facebook-especial"><div class="fb-like" data-href="http://facebook.com/clasesdeguitarra.co" data-width="100" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div></li>
+				
+				<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://clasesdeguitarra.co" data-text="Wow este si que es un lindo sitio de clases de guitarra :D" data-via="Andres_Ospina" data-count="none">Tweet</a>
+				</li>
+				
+				<li><div class="g-plusone" data-size="medium" data-href="http://clasesdeguitarra.co"></li>
+			</ul>
+			<a href="mailto:info@clasesdeguitarra.co"> info@clasesdeguitarra.co</a><br/>
+			<a href='tel:3192949866'><span>319 294 9866</span></a><br/>
+			<a href='tel:0314667170'>4 66 7170</a>
+			<address>Bogotá, Colombia</address>
+			<p>Copyright © 2014 <b>ClasesDeGuitarra.CO</b> Diseñado y desarrollo por <a href="http://treebox.co">Treebox Agency</a><br/><a href="politicas">Politicas de privacidad</a>   |  <a href="contactenos">Contacto</a>  |  <a href="preguntas-frecuentes">FAQs</a>  </p>
+		</aside>
+	</div>
+</footer>
+
+</body>
+</html>
