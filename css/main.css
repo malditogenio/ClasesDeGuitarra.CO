@@ -43,7 +43,7 @@ footer{
 	box-shadow:         0px -3px 4px 0px rgba(0,0,0,0.31);
 	color: #D8D8D8;
 	font-size: 12px;
-	height: 161px;
+	height: 82px;
 	padding: 4em 0 2em 0;
 
 }
@@ -301,7 +301,7 @@ margin-left: -.7em;
 
 
 #presentacion{
-	background: url(../img/bg-angus.jpg) #000 fixed top no-repeat;
+	background: url(../img/bg-angus.jpg) fixed top no-repeat rgba(0,0,0,1);
 	background-size: cover;
 	height: 115%;
 	position: relative;
@@ -579,9 +579,8 @@ padding: 2px;
 		#presentacion{
 			max-width:959px;
 			min-height: 325px !important;
-
-			background: url(../img/bg-angus.jpg)100% 100% no-repeat;
-}
+			background: url(../img/bg-angus.jpg)100% 100% no-repeat rgba(0,0,0,1);
+		}
 
 		#presentacion-slash{
 			max-width:959px;
@@ -614,11 +613,11 @@ padding: 2px;
 	}
 
 	/* TABLETS Vertical )*/
-	@media only screen and (max-width: 854px) {
+	@media only screen and (max-width: 854px) {	
 		footer #acerca-de-clases{
 			width: 22%;
 		}
-
+		
 		footer #acerca-de-clases p{
 			display: none;
 		}
@@ -694,9 +693,9 @@ padding: 2px;
 			line-height: 15px;
 			margin: 1.7em 1em 0em 1.5em;
 		}
-
+	
 		header{
-			height: 11em;
+			height: 11em;		
 			padding-top: 1em;
 		}
 
@@ -728,7 +727,7 @@ padding: 2px;
 			text-align: center;
 			font-size: 1.3em;
 		}
-
+	
 		footer #datos-de-contacto ul:first-child{
 			right: 2.3em;
 		}
@@ -756,7 +755,7 @@ padding: 2px;
 			width: 49%;
 			padding: 0 !important;
 		}
-
+		
 		.domi, .hour, .iconito, .profes {
 			left: .4em !important;
 			display: block;
@@ -766,7 +765,7 @@ padding: 2px;
 		#beneficios ul li:last-child{
 			margin-left: 0px !important;
 		}
-
+		
 		.alumno {
 			padding: 1.3em;
 			margin: 3em 0 4.5em 1.3em;
@@ -796,7 +795,7 @@ padding: 2px;
 		}
 
 		#formulario{
-			background: url(../img/background-presentacion.jpg) 100% 100% no-repeat;
+			background: url(../img/background-presentacion.jpg) 100% 100% no-repeat rgba(0,0,0,1);
 			padding: 1em 0;
 		}
 
