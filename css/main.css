@@ -4,7 +4,7 @@
 	Description:    Project Clases De Guitarra
 	Author:         Andres Ospina
 	Author URI:     http://www.zenmonsters.com
-	Version:        3.2
+	Version:        3.3
 
 ----------------------------------------------------------------------------------------------------*/
 *{
@@ -44,7 +44,7 @@ footer{
 	color: #D8D8D8;
 	font-size: 12px;
 	height: 82px;
-	padding: 4em 0 2em 0;
+	padding: 4em 0 6em 0;
 
 }
 
@@ -434,26 +434,25 @@ margin-left: -.7em;
 }
 
 .contenedor{
-	max-width: 960px;
 	margin: 0 auto;
+	max-width: 960px;
 }
 
 .call-to-action{
+	background: #2ecc71;
+	border-bottom: 4px solid #27ae60;
+	border-radius: .2em;
+	color: #fff;
+	display: block;
 	font-size: 19px;
-	line-height: 26px;
 	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 26px;
+	margin: 10px auto 30px auto;
+	max-width: 200px;
 	padding: 15px 1.2em 10px;
 	text-align: center;
-	margin: 10px auto 30px auto;
-	display: block;
-	max-width: 200px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	border-radius: .2em;
-	background: #73A500;
-	color: #fff;
-	border-bottom: 4px solid #446102;
-
 }
 
 
