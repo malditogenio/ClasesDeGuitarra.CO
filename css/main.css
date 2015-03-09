@@ -3,8 +3,8 @@
 	Theme Name:     ClasesDeGuitarra
 	Description:    Project Clases De Guitarra
 	Author:         Andres Ospina
-	Author URI:     http://www.zenmonsters.com
-	Version:        3.3
+	Author URI:     http://www.treebox.co
+	Version:        3.4
 
 ----------------------------------------------------------------------------------------------------*/
 *{
@@ -457,8 +457,8 @@ margin-left: -.7em;
 
 
 .call-to-action:hover{
-	background: #84BD00;
-	border-bottom: 4px solid #648F00;
+	background: #28BB67;
+	border-bottom: 4px solid #1F864A;
 }
 
 
@@ -468,14 +468,13 @@ margin-left: -.7em;
 
 .especial{
 	background: #F6E53F;
-	font-size: 22px;
-	line-height: 18px;
+	font-size: .8em;
 }
 
 .especial div{
 	font-size: 13px;
 	line-height: 14px;
-	margin-top: 30px
+	margin-top: 43px
 }
 
 .iconito{

@@ -1,0 +1,64 @@
+azul = #415BA0
+azulOscuro = #243774
+blanco = white
+blanquito = rgba(255, 255, 255, 0.79)
+
+html
+  background: url("../img/bg-gracias.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+body
+	background url('../img/bg-gracias.png') no-repeat
+	background-size cover
+	font-size 16px
+	padding 3em 0
+	position absolute
+	text-align center
+	width 100%
+h1
+	margin 0 0 2em
+	
+	
+header
+	p
+		margin 2em 0
+
+
+footer
+		color blanquito
+		font-size .7em
+		margin 19em 0 0
+		position absolute
+		a
+			color blanquito
+
+#bg
+  position fixed
+  top 0 
+  left 0 
+  min-width 100%
+  min-height 100%
+
+.contenedor
+	margin 0 auto
+	max-width 360px
+	position relative
+	
+.elface
+	background azul url('../img/facebook-icon.png') no-repeat 15px 13px
+	border-bottom 3px solid azulOscuro
+	border-radius .4em
+	color blanco
+	padding 1.1em 1em 1em 3em
+	text-decoration none
+	display inline-block
+	margin 2em 0 
+	
+@media (max-width: 361px)
+	#bg 
+  		left -390px
