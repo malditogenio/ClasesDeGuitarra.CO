@@ -25,7 +25,7 @@ a{
 
 
 body{
-	font-family: "Myriad pro", Sans-serif;
+	font-family: "myriad-pro", Sans-serif;
 	font-size: 16px;
 	background: #fff;
 	margin: 0;
@@ -445,7 +445,7 @@ margin-left: -.7em;
 	color: #fff;
 	display: block;
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 2px;
 	line-height: 26px;
 	margin: 10px auto 30px auto;
