@@ -109,7 +109,7 @@ msgid "View %s"
 msgstr ""
 
 #: classes/class-woothemes-testimonials.php:84
-msgid "Search %a"
+msgid "Search %s"
 msgstr ""
 
 #: classes/class-woothemes-testimonials.php:85

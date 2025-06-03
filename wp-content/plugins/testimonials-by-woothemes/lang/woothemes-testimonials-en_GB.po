@@ -92,7 +92,7 @@ msgstr ""
 #: classes/class-woothemes-testimonials.php:84
 #, php-format
 #@ woothemes-testimonials
-msgid "Search %a"
+msgid "Search %s"
 msgstr ""
 
 #: classes/class-woothemes-testimonials.php:85
