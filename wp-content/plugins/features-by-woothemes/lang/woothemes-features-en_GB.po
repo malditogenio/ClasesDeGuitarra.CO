@@ -92,7 +92,7 @@ msgstr ""
 #: classes/class-woothemes-features.php:86
 #, php-format
 #@ woothemes-features
-msgid "Search %a"
+msgid "Search %s"
 msgstr ""
 
 #: classes/class-woothemes-features.php:87
