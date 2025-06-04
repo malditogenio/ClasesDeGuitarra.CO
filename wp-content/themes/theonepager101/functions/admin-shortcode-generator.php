@@ -135,7 +135,7 @@ function framework_url() {
   * Returns JSON.
   *
   * NOTE: For users that are not logged in this is not called.
-  * The client recieves <code>-1</code> in that case.
+  * The client receives <code>-1</code> in that case.
 -----------------------------------------------------------------------------------*/
 
 function ajax_action_check_url() {
@@ -161,7 +161,7 @@ function ajax_action_check_url() {
   * Generate a nonce.
   *
   * NOTE: For users that are not logged in this is not called.
-  * The client recieves <code>-1</code> in that case.
+  * The client receives <code>-1</code> in that case.
 -----------------------------------------------------------------------------------*/
 
 function ajax_action_generate_nonce() {
